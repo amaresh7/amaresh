@@ -3,7 +3,6 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo 'Hello World'
                 git 'https://github.com/amaresh7/amaresh.git'
             }
           }
