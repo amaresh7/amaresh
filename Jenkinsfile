@@ -4,8 +4,6 @@ pipeline {
         stage('Example') {
             steps {
                 echo 'Hello World'
-            }
-            steps {
                 git 'https://github.com/amaresh7/amaresh.git'
             }
           }
